@@ -1,0 +1,95 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, #141e30, #243b55);
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.content{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.header{
+    float: right;
+    font-size: 20px;
+    color: #ccc;
+    padding: 0 6px;
+}
+#minmax{
+    color: #e3e62d;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+}
+#close{
+    color: crimson;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+}
+.searchURL{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-app-region: no-drag;
+    
+    
+}
+label{
+    font-size: 20px;
+    color: #ccc;
+}
+.form{
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.form input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+
+}
+.form button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    background-color: #243b55;
+    cursor: pointer;
+    outline: none;
+}
+.form button:hover{
+    box-shadow: 0 0px 12px #141e30;
+}
+.ResultSearch{
+    width: 490px;
+    height: 300px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:#243b55;
+    border: 1px solid #141e30;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 0px #141e30, 0 0 4px 0px #141e30;
+    text-align: left;
+    font-size: 11px;
+    font-family: monospace;
+    word-break: break-all;
+    overflow: auto;
+    color: #25e025;
+    padding: 5px;
+    -webkit-app-region: no-drag;
+}
