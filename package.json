@@ -1,0 +1,47 @@
+{
+  "name": "locally",
+  "productName": "Locally",
+  "version": "1.0.0",
+  "description": "this is sample application for cloning website locally",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },  "build": {
+    "appId": "ml.mohammed-laksir.locally",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "public/images/icon_locally.ico"
+    },
+    "nsis": {
+      "installerIcon": "public/images/icon_install.ico",
+      "uninstallerIcon": "public/images/uninstall.ico",
+      "license": "License.txt",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createStartMenuShortcut": true,
+      "createDesktopShortcut":true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git clone https://github.com/simm36465/locally.git"
+  },
+  "keywords": [
+    "clone",
+    "website"
+  ],
+  "author": "mohammed laksir",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "10.1.5",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "website-scraper": "^4.2.3",
+    "website-scraper-puppeteer": "^0.1.5"
+  }
+}
