@@ -1,6 +1,6 @@
 # locally
-![alt text](https://raw.githubusercontent.com/simm36465/Ruins-Editor/main/icon.ico "Logo")
-# Ruins-Editor
+![alt text](https://raw.githubusercontent.com/simm36465/locally/main/public/images/icon_locally.ico")
+# locally
 This is a sample application for cloning website locally with electronjs
 # Common setup
 ## 1. Clone the repo and install the dependencies.
